@@ -1,0 +1,25 @@
+
+:root {
+  --bg: #0b0d10;
+  --panel: #11151a;
+  --muted: #a5b0c2;
+  --text: #e9eef7;
+  --brand: #7c5cff;
+  --brand-2: #18c6ff;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background: radial-gradient(1200px 800px at 10% -20%, #1b2040, var(--bg)) no-repeat, var(--bg);
+}
+*{box-sizing:border-box}
+a { color: var(--brand-2); text-decoration: none; }
+h1,h2,h3{line-height:1.15;margin:0}
+.container{max-width:1200px;margin:0 auto;padding:0 16px 64px}
+.grid{display:grid;gap:16px}
+.btn{background:linear-gradient(90deg,var(--brand),var(--brand-2));border:none;color:#fff;padding:10px 14px;border-radius:12px;cursor:pointer;font-weight:700}
+.btn--ghost{background:transparent;border:1px solid #273041;color:#d9e2f2}
+.card{background:rgba(255,255,255,0.02);backdrop-filter: blur(8px);border:1px solid #1c2330;border-radius:16px;padding:16px}
+.input{width:100%;padding:10px 12px;border-radius:12px;border:1px solid #273041;background:#0d1117;color:#e9eef7}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{border-bottom:1px solid #1c2330;padding:10px;text-align:left}
+.badge{display:inline-block;padding:4px 10px;border-radius:999px;background:#111826;border:1px solid #1c2330;color:#9fb2d6;font-size:.85rem}
+.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}

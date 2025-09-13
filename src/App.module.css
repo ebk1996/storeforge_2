@@ -1,0 +1,99 @@
+.app {
+	font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+	background: linear-gradient(120deg, #232526 0%, #414345 100%);
+	min-height: 100vh;
+	color: #e9eef7;
+	transition: background 0.3s;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 32px 16px;
+	background: rgba(17, 21, 26, 0.95);
+	border-radius: 18px;
+	box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+
+.card {
+	background: #11151a;
+	border-radius: 14px;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+	padding: 24px;
+	margin-bottom: 24px;
+	transition: box-shadow 0.2s;
+}
+.card:hover {
+	box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+
+.btn {
+	background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+	color: #fff;
+	border: none;
+	border-radius: 8px;
+	padding: 10px 22px;
+	font-weight: 600;
+	cursor: pointer;
+	box-shadow: 0 2px 8px rgba(106,130,251,0.12);
+	transition: background 0.2s, box-shadow 0.2s;
+}
+.btn:hover {
+	background: linear-gradient(90deg, #fc5c7d 0%, #6a82fb 100%);
+	box-shadow: 0 4px 16px rgba(252,92,125,0.18);
+}
+
+.btn--ghost {
+	background: transparent;
+	color: #6a82fb;
+	border: 1px solid #6a82fb;
+	padding: 10px 22px;
+	border-radius: 8px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: color 0.2s, border 0.2s;
+}
+.btn--ghost:hover {
+	color: #fc5c7d;
+	border-color: #fc5c7d;
+}
+
+.input {
+	background: #232526;
+	color: #e9eef7;
+	border: 1px solid #414345;
+	border-radius: 8px;
+	padding: 10px 16px;
+	margin-bottom: 12px;
+	font-size: 1rem;
+	transition: border 0.2s;
+}
+.input:focus {
+	border-color: #6a82fb;
+	outline: none;
+}
+
+.badge {
+	display: inline-block;
+	background: #6a82fb;
+	color: #fff;
+	border-radius: 6px;
+	padding: 4px 12px;
+	font-size: 0.95rem;
+	font-weight: 500;
+	margin-right: 8px;
+	margin-bottom: 4px;
+	box-shadow: 0 1px 4px rgba(106,130,251,0.10);
+}
+
+.toolbar {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 16px;
+}
+
+.grid {
+	display: grid;
+	gap: 18px;
+}
